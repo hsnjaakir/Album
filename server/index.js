@@ -18,8 +18,7 @@ app.get('/', (req, res) => {
 });
 
 const PORT = process.env.PORT || 5000;
-const CONNECTION_URL =
-  'mongodb+srv://javascriptmastery:javascriptmastery123@cluster0.b1mpy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+// const CONNECTION_URL = 'mongodb+srv://javascriptmastery:javascriptmastery123@cluster0.b1mpy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 mongoose
   .connect(process.env.CONNECTION_URL, {
